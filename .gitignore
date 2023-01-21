@@ -1,0 +1,4 @@
+backend/venv/
+backend/velaioback/velaioback/__pycache__/
+backend/velaioback/notices/__pycache__/
+backend/velaioback/notices/migrations/__pycache__/

@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  ul {
+    display: flex;
+
+    li,
+    .item-nav {
+      padding: 0 5px;
+      text-decoration: none;
+      list-style: none;
+      font-style: none;
+      cursor: pointer;
+      color: $color-3;
+    }
+  }
+
+  .menuIcon {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+}
+
+
+@media only screen and (min-width: 480px) {
+  .navbar {
+    ul {
+
+      li,
+      .item-nav {
+        padding: 0 15px;
+      }
+    }
+  }
+}
